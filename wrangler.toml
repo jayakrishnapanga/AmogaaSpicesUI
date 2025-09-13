@@ -1,0 +1,4 @@
+name = "react-vite-on-cloudflare"
+compatibility_date = "2025-07-12"
+compatibility_flags = ["nodejs_compat"]
+pages_build_output_dir = "dist"
