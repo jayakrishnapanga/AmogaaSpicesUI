@@ -4,17 +4,24 @@ import { MapPin, Phone, Mail, Clock } from "lucide-react";
 
 const Contact = () => {
   return (
-    <section id="contact" className="py-20 bg-gradient-to-b from-secondary/10 to-background">
+    <section
+      id="contact"
+      className="py-20 bg-gradient-to-b from-secondary/10 to-background"
+    >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            Let's 
-            <span className="bg-gradient-to-r from-saffron to-cinnamon bg-clip-text text-transparent"> Connect</span>
+            Let's
+            <span className="bg-gradient-to-r from-saffron to-cinnamon bg-clip-text text-transparent">
+              {" "}
+              Connect
+            </span>
           </h2>
           <p className="text-lg text-muted-foreground leading-relaxed">
-            Have questions about our spices? Want to share a recipe? Or simply wish to 
-            know more about the stories behind each blend? We'd love to hear from you.
+            Have questions about our spices? Want to share a recipe? Or simply
+            wish to know more about the stories behind each blend? We'd love to
+            hear from you.
           </p>
         </div>
 
@@ -22,10 +29,12 @@ const Contact = () => {
           {/* Contact Information */}
           <div className="space-y-8">
             <div>
-              <h3 className="text-2xl font-bold text-foreground mb-6">Get in Touch</h3>
+              <h3 className="text-2xl font-bold text-foreground mb-6">
+                Get in Touch
+              </h3>
               <p className="text-muted-foreground mb-8">
-                Our doors are always open, just like our grandmother's kitchen. 
-                Reach out to us through any of these channels, and let's start a 
+                Our doors are always open, just like our grandmother's kitchen.
+                Reach out to us through any of these channels, and let's start a
                 conversation about the magic of authentic spices.
               </p>
             </div>
@@ -36,11 +45,16 @@ const Contact = () => {
                   <MapPin className="w-6 h-6 text-saffron" />
                 </div>
                 <div>
-                  <h4 className="font-semibold text-foreground mb-1">Visit Our Spice House</h4>
+                  <h4 className="font-semibold text-foreground mb-1">
+                    Visit Our Head Office
+                  </h4>
                   <p className="text-muted-foreground">
-                    123 Spice Market Lane<br />
-                    Old Delhi, Delhi 110006<br />
-                    India
+                    Plot No.76, Srinivasa Nilayam, Krishnaveni Nagar, Near Mind
+                    Quest Holdings Pvt. Ltd.
+                    <br />
+                    Chechuguda, Hyd- 072, TS,
+                    <br />
+                    India - Ph : 040-45435656.
                   </p>
                 </div>
               </div>
@@ -50,10 +64,13 @@ const Contact = () => {
                   <Phone className="w-6 h-6 text-cinnamon" />
                 </div>
                 <div>
-                  <h4 className="font-semibold text-foreground mb-1">Call Us</h4>
+                  <h4 className="font-semibold text-foreground mb-1">
+                    Call Us
+                  </h4>
                   <p className="text-muted-foreground">
-                    +91 98765 43210<br />
-                    +91 11 2345 6789
+                    +91 93903 64484
+                    <br />
+                    +91 93919 27558
                   </p>
                 </div>
               </div>
@@ -63,10 +80,23 @@ const Contact = () => {
                   <Mail className="w-6 h-6 text-cumin" />
                 </div>
                 <div>
-                  <h4 className="font-semibold text-foreground mb-1">Email Us</h4>
+                  <h4 className="font-semibold text-foreground mb-1">
+                    Email Us
+                  </h4>
                   <p className="text-muted-foreground">
-                    hello@amogaspices.com<br />
-                    orders@amogaspices.com
+                    <a
+                      href="mailto:sales@amgoaa.in"
+                      className="hover:text-saffron transition-colors"
+                    >
+                      sales@amgoaa.in
+                    </a>
+                    <br />
+                    <a
+                      href="mailto:support@amogaa.in"
+                      className="hover:text-saffron transition-colors"
+                    >
+                      support@amogaa.in
+                    </a>
                   </p>
                 </div>
               </div>
@@ -76,10 +106,12 @@ const Contact = () => {
                   <Clock className="w-6 h-6 text-paprika" />
                 </div>
                 <div>
-                  <h4 className="font-semibold text-foreground mb-1">Business Hours</h4>
+                  <h4 className="font-semibold text-foreground mb-1">
+                    Business Hours
+                  </h4>
                   <p className="text-muted-foreground">
-                    Monday - Saturday: 9:00 AM - 7:00 PM<br />
-                    Sunday: 10:00 AM - 5:00 PM
+                    Monday - Saturday: 9:00 AM - 7:00 PM
+                    <br />
                   </p>
                 </div>
               </div>
@@ -89,7 +121,9 @@ const Contact = () => {
           {/* Contact Form */}
           <Card className="bg-card/50 backdrop-blur-sm border-border/50 shadow-[var(--shadow-warm)]">
             <CardContent className="p-8">
-              <h3 className="text-2xl font-bold text-foreground mb-6">Send Us a Message</h3>
+              <h3 className="text-2xl font-bold text-foreground mb-6">
+                Send Us a Message
+              </h3>
               <form className="space-y-6">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div>
